@@ -72,7 +72,7 @@
                                     <!-- Sets the path to the file which contains the execution data. -->
                                     <dataFile>${project.build.directory}/coverage-reports/jacoco-ut.exec</dataFile>
                                     <includes>
-                                        <include>com.example.Foo</include>
+                                        <include>com/example/Foo.class</include>
                                     </includes>
                                     <!-- Sets the output directory for the code coverage report. -->
                                     <outputDirectory>${project.reporting.outputDirectory}/jacoco-ut</outputDirectory>
@@ -139,7 +139,7 @@
                                     <!-- Sets the path to the file which contains the execution data. -->
                                     <dataFile>${project.build.directory}/coverage-reports/jacoco-ut.exec</dataFile>
                                     <includes>
-                                        <include>com.example.Foo</include>
+                                        <include>com/example/Foo.class</include>
                                     </includes>
                                     <!-- Sets the output directory for the code coverage report. -->
                                     <outputDirectory>${project.reporting.outputDirectory}/jacoco-ut</outputDirectory>
